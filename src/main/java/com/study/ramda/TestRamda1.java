@@ -29,9 +29,9 @@ public class TestRamda1 {
 
         MyFunction myFunction1 = (a) -> System.out.println("이거 자체가 run() - " + a);
         myFunction1.run(20);
-        System.out.println("----------main3------");
+        System.out.println("----------test----@@--");
         execute(myFunction1);
-        System.out.println("-------------------");
+        System.out.println("-------------test--------");
 
         getMyfunction().run(200);
 
