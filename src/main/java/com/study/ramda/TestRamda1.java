@@ -1,5 +1,7 @@
 package com.study.ramda;
 
+import java.util.function.Function;
+
 @FunctionalInterface
 interface MyFunction{
     public abstract void run(int a);
@@ -36,5 +38,9 @@ public class TestRamda1 {
         getMyfunction().run(200);
 
         execute((a) -> System.out.println("Hi - " + 1000));
+
+        Function<Integer, Integer> f = i -> i/10 * 10;
+        System.out.println("-> " + f.apply(25));
+
     }
 }
