@@ -29,7 +29,7 @@ public class TestRamda1 {
 
         MyFunction myFunction1 = (a) -> System.out.println("이거 자체가 run() - " + a);
         myFunction1.run(20);
-        System.out.println("----------------");
+        System.out.println("--------------@@--");
         execute(myFunction1);
         System.out.println("---------------------");
 
