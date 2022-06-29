@@ -31,7 +31,7 @@ public class TestRamda1 {
         myFunction1.run(20);
         System.out.println("----------------");
         execute(myFunction1);
-        System.out.println("-------------------");
+        System.out.println("---------------------");
 
         getMyfunction().run(200);
 
